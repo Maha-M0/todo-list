@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todo-list.css">
+  </head>
+  <body>
+    <div class="grid"> 
+      <p class="title">Todo List</p>
+      <div class="todo-input-grid">
+        <input placeholder="Todo task"class="js-name-input name-input">
+        <input type="date" class="js-duedate-input duedate-input">
+        
+        <button class="add-button js-add-button" >Add</button>
+      <button class="clear-button js-clear-button" >Clear All</button>
+    </div>
+    <input type="text" placeholder="Search tasks" class="js-search-task search-task">
+    <div class="todo-counter js-todo-counter"></div>
+    <div class="filter-tabs">
+      <button class="tab-button active js-tab-all">All</button>
+      <button class="tab-button js-tab-active">Active</button>
+      <button class="tab-button js-tab-completed">Completed</button>
+      <button class="tab-button js-clear-completed clear-completed-btn" >Clear Completed</button>
+    </div>
+    <div class="js-todo-list todo-grid"></div>
+  </div>
+    
+
+    <script src="todo-list.js"></script>
+  </body>
+</html>
