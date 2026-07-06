@@ -1,5 +1,4 @@
-let todoList=JSON.parse(localStorage.getItem('todoList')) || [{ id: typeof crypto!== 'undefined' ? crypto.randomUUID():'1', name: 'make dinner', dueDate: '2022-12-20',completed: false },
-{ id: typeof crypto!== 'undefined' ? crypto.randomUUID():'2', name: 'wash dishes', dueDate: '2022-12-20',completed: false }];
+let todoList=JSON.parse(localStorage.getItem('todoList')) || [];
 
 let currentFilter = 'all';
 let searchQuery = '';
